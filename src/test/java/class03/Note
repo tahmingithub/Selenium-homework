@@ -29,7 +29,7 @@ Example:
 xpath to reach span
 /html/body/div[2]/span
 
-*******************************************      Relative XPath Expressions and Their Uses
+******************************       Relative XPath Expressions and Their Uses      ******************
 
 
 1. Basic Attribute Selector
@@ -66,3 +66,7 @@ Guideline: Should be a last resort for selecting elements.
 6. Use of AND Operator
 Syntax: //tagname[@attribute1='value' and @attribute2='value2']
 Purpose: Combines multiple conditions to locate an element uniquely.
+
+      **********   Css:  *********
+       tagname[attribut='value']
+       css doesnt allow you to  access element  using text

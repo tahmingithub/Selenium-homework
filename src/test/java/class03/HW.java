@@ -7,9 +7,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class HW {
     public static void main(String[] args) throws InterruptedException {
-
+        // open chromeDriver
         WebDriver driver= new ChromeDriver();
+        // maximize chromedriver
         driver.manage().window().maximize();
+        // get to this website
         driver.get("https://demoqa.com/text-box");
         // find name and send keys
         WebElement fullname=driver.findElement(By.xpath("//input[@id='userName']"));
