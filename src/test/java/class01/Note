@@ -64,6 +64,7 @@ css
 
 ******************
 Instructor Note
+
 get() vs navigate()
 -- navigate can move back, forward and refresh
 -- get() will wait for the page to fully load whereas navigate() will not
